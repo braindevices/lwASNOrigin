@@ -83,6 +83,7 @@ def stats_to_markdownstr(p: pstats.Stats, prtRowNum: int) -> str:
 
         results.append((nc,
                         cc,
+                        tt,
                         tt / nc,
                         ct,
                         ct / nc,
